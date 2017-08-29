@@ -63,6 +63,10 @@ h2 {
 	width: 100%;
 }
 
+#header {
+	display: flex;
+	justify-content: space-between;
+}
 @media screen and (min-width: 1000px) {
 	.project-left {
 		margin: 0 1em 0 0;
