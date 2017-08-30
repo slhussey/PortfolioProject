@@ -1,3 +1,7 @@
+p {
+	margin: 0;
+}
+
 .inline {
 	display: inline-block;
 }
@@ -67,16 +71,19 @@ h2 {
 	display: flex;
 	justify-content: space-between;
 }
+
 @media screen and (min-width: 1000px) {
 	.project-left {
 		margin: 0 1em 0 0;
 	}
+	
 	.project-middle {
 		margin: 0 1em 0 1em;
 	}
 	.project-right {
 		margin: 0 0 0 1em;
 	}
+	
 	.project {
 		width: 30%;
 	}
